@@ -1,0 +1,60 @@
+.header{
+    height: 4rem;
+    background-color: #131921;
+    float: none;
+    display:inline-block ;
+    
+}
+.header-l{
+    display: flex;
+    padding: 1rem;
+    position: s;
+}
+.logo-tab{
+    display: flex;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+.logo-tab:hover{
+    border: 1px solid white;
+   cursor: pointer;
+}
+
+.logo{
+    
+    height: 2.5rem;
+    width: 6.5rem;
+}
+.in{
+    padding-top: .5rem;
+    font-size: 500;
+    color: white;
+}
+.location{
+   position: absolute;
+   display: flex;
+   top: 2rem;
+}
+.location-tab{
+    color: white;
+    padding-left: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid transparent;
+   
+}
+.location-tab:hover{
+    border: 1px solid white;
+    display: inline-block;
+}
+.location-tab>:nth-child(2){
+    font-size: .8rem;
+    padding-left: 1rem;
+    font-weight: 300;
+}
+.location-tab>:nth-child(4){
+    font-size: .9rem;
+    padding-left: 1rem;
+    font-weight: 700;
+}
