@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css'
 import logo from '../../Assets/pngimg.com - amazon_PNG25.png'
+
 function Header() {
+
+  const [dropdown,setDropdown] = useState(false)
+  const dropdownAll = () =>{
+    setDropdown(!dropdown)
+  }
   return (
     <div className='header'>
         <div className="header-l">
@@ -16,7 +22,30 @@ function Header() {
             <span>Update location</span>
             </div>
         </div>
+      <div className="header-center">
+        <div className="dropdown">
+        <button className="dropbtn " onClick={dropdownAll}>All  
+          <i className="fa fa-caret-down "></i>
+        </button>
        
+        <div className="popup-content">
+          Search in
+        </div>
+         </div>
+         <input type="search" className='search' placeholder='Seach Amazon.in'/>
+
+         <div className="search-icon">
+          <i className="fa-solid fa-magnifying-glass"></i>
+         </div>
+         {
+          dropdown && (
+            <div className="dropdown-content">
+              <span>All Categories </span>
+              <span>Alexa Skills</span>
+            </div>
+          )
+         }
+      </div>
     </div>
   )
 }
