@@ -3,8 +3,10 @@
     background-color: #131921;
     float: none;
     display:flex ;
-    position: absolute;
+    position: fixed;
+    z-index: 100;
     width: 100%;
+    font-family: inherit;
     
 }
 .header-l{
@@ -80,7 +82,7 @@
     display: flex;
     outline: none;
     padding: 8px 10px;
-    background-color: #bab7ad;
+    background-color: #e4e1d9;
     font-family: inherit; 
     margin: 0; 
     height: 2.5rem;
@@ -114,7 +116,7 @@
     text-decoration: none;
     opacity: .96;
     align-content: center;
-    margin: 2.5rem 3rem;
+    margin: 2.8rem 3rem;
     width: 4rem;
     height: 2rem;
     border-radius: .3rem;
@@ -145,12 +147,12 @@
     margin: 1rem;
     height: 2.5rem;
     border: 2px solid transparent;
-    
+    width: 33rem;
   }
   
   .search{
     height: 2.5rem;
-    width: 34rem;
+    width: 38rem;
     padding: 0 4rem;
     font-size: .95rem;
     font-weight: 500;
@@ -162,14 +164,17 @@
   }
   .search-icon{
     height: 2.5rem;
-    width: 2.5rem;
+    width: 3rem;
+    display: flex;
     background-color: rgb(254, 189, 105);
     margin: 0;
     margin-left: -2.5rem;
     padding: 0%;
     text-align: center;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
     border-radius: .2rem;
+    
   }
   .search-icon:hover{
     background-color: rgb(230, 157, 62);
@@ -179,7 +184,7 @@
   .search-icon > i{
     color: #000;
     font-size: 1.3rem;
-  
+    
   }
   .dropdown-content{
     display: block;
@@ -206,4 +211,414 @@
   .dropdown-content :hover{
     background-color: #94928b;
   }
+  .header-r{
+    position: relative;
+    display: flex;
+    padding: 1.2rem;
+    margin: 0;
+    padding-bottom: 0%;
+    
+  }
+
+  .icp-nav-flag {
+    width: 2rem;
+    position: fixed;
+    display: inline-block;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 3px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/fe2UeLQmJ11kKHN.png);
+    background-position: 589px -166px;
+  }
+  .language{
+    position: absolute;
+    display: flex;
+    border: 1px solid transparent;
+    height: 3rem;
+    width: 4.5rem;
+    margin-left: -1.6rem;
+    margin-top: -.5rem;
+    padding-top: .8rem;
+    cursor: pointer;
+    z-index: 2;
   
+  }
+  .language:hover{
+    border: 1px solid white;
+    
+  }
+  .language > span:nth-child(2){
+    font-size: .8rem;
+    font-weight: 800;
+    padding-top: .8rem;
+    padding-left: 2.2rem;
+    
+  }
+  .language > span:nth-child(3){
+   font-size: .8rem;
+   padding: .2rem;
+   padding-top:.95rem;
+    
+     
+  }
+
+  .triangle {
+    
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1.5rem solid white;
+    margin: 2rem;
+    z-index: 3;
+    left: .2rem;
+  }
+
+ .langlist{
+  width: 13.8rem;
+  height: 20.5rem;
+  background-color: white;
+  margin-left: -4rem;
+  margin-top: 3rem;
+  padding: 1rem;
+  border-radius: .2rem;
+  color: #000;
+  display: block;
+  position: absolute;
+  list-style: none;
+ }
+li{
+ 
+  font-weight: 300;
+  font-size: .85rem;
+}
+.langlist > li:hover{
+  color: rgb(228, 121, 17);
+  text-decoration: underline;
+  .icp-radio{
+    background-position: 72px 0;
+  }
+}
+.icp-radio-active{
+  margin: 0 .5em 0 0;
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(https://m.media-amazon.com/images/S/sash/fe2UeLQmJ11kKHN.png);
+  background-position: 95px 0;
+}
+.icp-radio{
+  margin: 0 .5em 0 0;
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(https://m.media-amazon.com/images/S/sash/fe2UeLQmJ11kKHN.png);
+  background-position: 120px 0;
+ 
+}
+.icp-radio:hover{
+  background-position: 72px 0;
+}
+.hr{
+ background-color: rgb(230, 230, 230);
+ border: none ;
+ height: 1px;
+ margin: .6rem;
+}
+.blue-font{
+  color: #0066C0;
+  display: block;
+  margin-left: 1.7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: small;
+  font-weight: 500;
+}
+
+.blue-font:hover{
+  text-decoration: underline rgb(228, 121, 17) .01rem; 
+}
+.icp-nav-flag-small{
+  width: 1.1rem;
+  position: fixed;
+  display: inline-block;
+  height: .8rem;
+  margin-top: .3rem;
+  background-image: url(https://m.media-amazon.com/images/S/sash/fe2UeLQmJ11kKHN.png);
+  background-position: 564px -35px;
+}
+
+.message{
+  font-size: .85rem;
+  margin-left: 1.6rem;
+}
+
+.account-list{
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 5.7rem;
+  height: 3.3rem;
+  padding-left: 3rem;
+  border: 1px solid transparent;
+  left: 5rem;
+  top: .4rem;
+  cursor: pointer;
+
+}
+.account-list > :nth-child(1){
+  font-size: .8rem;
+  font-weight: 300;
+  position: absolute;
+  left: .5rem;
+  padding-top: .9rem;
+}
+.account-list > :nth-child(3) {
+  font-size: .8rem;
+  font-weight: 800;
+  left: .5rem;
+  position: absolute;
+  padding-top: .7rem;
+} 
+.account-list > :nth-child(4){
+  font-size: .8rem;
+  color: #bebcb6;
+  position: absolute;padding-left: 4.7rem;
+  padding-top: .7rem;
+}
+.account-list:hover{
+  border: 1px solid rgba(255, 255, 255, 0.884);
+}
+.account-dropdown{
+  position: absolute;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.sign-box{
+  position: absolute;
+  display: flex;
+  height: 26rem;
+  width: 30rem;
+  color: #000;
+  background-color: #ffffff;
+  margin-top: 2.4rem;
+  right: -12rem;
+  cursor: default;
+}
+.sign-in{
+  position: absolute;
+  height: 2rem;
+  width: 15rem;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+  background: #FFD814;
+  border-color: #FCD200;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 8rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: .82rem;
+  font-weight: 500;
+  
+}
+.sign-in:hover{
+  text-decoration: underline rgb(228#000, 121, 17) .01rem;
+}
+.account-dropdown > :nth-child(1){
+  margin-left: 3.8rem;
+  margin-top: 1.5rem; 
+  
+}
+
+.sign-box > :nth-child(2){
+  display: flex;
+  position: absolute;
+  left: 11rem;
+  top: 4.4rem;
+  font-size: .7rem;
+ 
+}
+
+.sign-box > :nth-child(3){
+  display: flex;
+  position: absolute;
+  top: 4.4rem;
+  left: 16rem;
+  font-size: .7rem;
+  color: #0066C0;
+  cursor: pointer;
+}
+
+.sign-box > :nth-child(3):hover{
+  text-decoration: underline;
+  color: rgb(228, 121, 17);
+}
+
+.account-dropdown > hr{
+  width: 27rem;
+  height: .01rem;
+  position: absolute;
+  display: flex;
+  top: 8rem;
+  left: -16.5rem;
+  background-color: #ebe3e3;
+  border: none;
+}
+
+.your-list{
+  position: absolute;
+  display: flex;
+  top: 9rem;
+  color: #000;
+  left: -19rem;
+  
+}
+.your-list >ul >li{
+  list-style: none;
+  font-size: .8rem;
+  color: #444;
+  font-weight: 400;
+  white-space: normal;
+  word-wrap: break-word;
+  padding: .2rem;
+}
+.your-list > ul > li:hover{
+  color: #e47911;
+  text-decoration: underline;
+}
+.your-list >ul >:nth-child(1){
+  font-size: 1rem;
+  font-weight: 700;
+  padding-bottom: .5rem;
+  cursor: text;
+  color: #000;
+}
+.your-list >ul >:nth-child(1):hover{
+  color: #000;
+  text-decoration: none;
+}
+.vrline{
+   border-right: .1rem solid #ebe3e3;
+   height: 16.5rem;
+   position: absolute;
+   display: flex;
+   top: 10rem;
+   left: -3.6rem;
+
+}
+
+.your-account{
+  position: absolute;
+  display: flex;
+  top: 10rem;
+  color: #000;
+  width: 20rem;
+ 
+ 
+}
+
+.your-acc-title{
+  font-size: 1rem;
+  font-weight: 700;
+  position: absolute;
+  cursor: text;
+}
+.your-account > ul >li {
+  top: .9rem;
+  list-style: none;
+  font-size: .8rem;
+  color: #444;
+  font-weight: 400;
+  white-space: normal;
+  word-wrap: break-word;
+  padding: .2rem;
+  left: -2.5rem;
+  position: relative;
+  width: 12rem;
+  
+}
+.your-account >ul > li:hover{
+  color: #e47911;
+  text-decoration: underline;
+}
+
+.returns{
+  display: inline-block;
+  position: absolute;
+  width: 5rem;
+  height: 3rem;
+  color: #ffffff;
+  left: 14rem;
+  top: .7rem;
+  border: 1px solid transparent;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+.returns:hover{
+  border: 1px solid white;
+}
+.returns > :nth-child(1){
+  font-size: .8rem;
+  font-weight: 400;
+}
+.returns > :nth-child(3){
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.cart{
+  width: 4.5rem;
+  height: 3rem;
+  position: absolute;
+  display: flex;
+  left: 19.3rem;
+  top: .57rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.cart:hover{
+  border: 1px solid white;
+}
+.cart-img{
+  background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB600086755_.png);
+  background-position: -10px -340px;
+  width: 2.4rem;
+  height: 1.7rem;
+}
+.cart > :nth-child(1){
+  position: absolute;
+  display: flex;
+  left: 1.3rem;
+  top: .3rem;
+  color: #f08804;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.cart > :nth-child(3){
+  font-size: .85rem;
+  font-weight: 700;
+  float: none;
+  display: flex;
+  position: relative;
+  top: .5rem;
+  
+}
