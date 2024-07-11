@@ -2,7 +2,7 @@
     height: 4rem;
     background-color: #131921;
     float: none;
-    display:flex ;
+    display: flex;
     position: fixed;
     z-index: 100;
     width: 100%;

@@ -1,0 +1,76 @@
+.sub-header{
+    display: flex;
+    padding-top: 4rem;
+    background-color: #232f3e;
+    height: 2.7rem;
+    
+}
+.three-line{
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB600086755_.png);
+    width: 17px;
+    height: 14px;
+    background-position: -172px -255px;
+}   
+.sub-header > :nth-child(1){
+    display: flex;
+    height: 2.6rem;
+    width: 3.8rem;
+    border: 1px solid transparent;
+    justify-content: center;
+    align-items: center;
+    margin-left: .8rem;
+    gap: .3rem;
+    font-size: .85rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.sub-header > :nth-child(1):hover{
+    border: 1px solid white;
+}
+.sub-header > * {
+    border: 1px solid transparent;
+    height: 2.6rem;
+    max-width: 10rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: .88rem;
+    font-weight: 500;
+    padding: 0 .4rem;
+    cursor: pointer;
+   
+}
+.sub-header > *:hover{
+    border: 1px solid white;
+}
+.prime{
+    gap: .3rem;
+}
+.sub-header > .big-savings{
+    border: 1px solid transparent;
+    margin-left: 12rem;
+}
+.sub-header > .big-savings :hover{
+    border: 1px solid white;
+}
+.triangle-prime{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1.3rem solid white;
+    z-index: 3;
+    margin-left: -1.4rem;
+    margin-top: .6rem;
+    
+  }
+
+.prime-content > img{
+   margin-top: 1.3rem;
+   margin-left: -4rem;
+   position: absolute;
+   height: 300px;
+   width: 300px;
+   border: 1rem solid white;
+}
