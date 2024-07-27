@@ -1,0 +1,28 @@
+.card4{
+    background-color: white;
+    max-height: 22.8rem;
+    max-width: 15.7rem;
+    padding: 1.5rem 1.6rem;
+    margin-left: 1.1rem;
+    color: black;
+    position: relative;
+    
+}
+.content-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: .8rem;
+    padding-bottom: 1rem;
+}
+.content-block > div{
+    height: 9rem;
+    width: 7rem;
+}
+.content-block > div >img{
+    height: 7.2rem;
+    width: 7.4rem;
+    
+}
+
+

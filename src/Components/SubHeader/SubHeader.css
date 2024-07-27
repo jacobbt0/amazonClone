@@ -44,7 +44,10 @@
     border: 1px solid white;
 }
 .prime{
-    gap: .3rem;
+    width: 4rem;
+}
+.prime > i {
+    margin-left: .3rem;
 }
 .sub-header > .big-savings{
     border: 1px solid transparent;
@@ -61,7 +64,7 @@
     border-right: 1rem solid transparent;
     border-bottom: 1.3rem solid white;
     z-index: 3;
-    margin-left: -1.4rem;
+    margin-left: -1.3rem;
     margin-top: .6rem;
     
   }

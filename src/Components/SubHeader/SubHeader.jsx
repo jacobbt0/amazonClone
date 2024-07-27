@@ -22,7 +22,7 @@ const SubHeader = () => {
         <div>Customer Service</div>
         <div className='prime' onMouseEnter={primeDropdown} onMouseLeave={primeDropdown}>
           <span>Prime</span>
-          <i class="fa-solid fa-caret-down"></i>
+          <i className="fa-solid fa-caret-down"></i>
           {
             dropdown&&(
               <div className="prime-content">

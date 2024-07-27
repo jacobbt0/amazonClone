@@ -1,0 +1,24 @@
+.body{
+
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+.body > img {
+    height: 100%;
+    width: 100%;
+}
+.first-row{
+    top: -19rem;
+    position: relative;
+    display: flex;
+    padding: 0%;
+}
+.second-row{
+    display: flex;
+    top: -17.5rem;
+    position: relative;
+    width: 100%;
+    padding: 0%;
+
+}
