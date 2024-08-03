@@ -2,6 +2,7 @@ import React from 'react'
 import './Body.css'
 import ItemCard from './ItemCard/ItemCard'
 import ItemCard4 from './ItemCard/ItemCard4'
+import Slider from './Slider/Slider'
 
 const Body = () => {
   return (
@@ -46,7 +47,8 @@ const Body = () => {
             img4='https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/LuxuryStores/Spring-23/GW/Quad_Cards/Spring/LSS23_SPRING_DT_CAT_CARD_4_x1._SY116_CB595261253_.jpg'
             name1='Dresses' name2='Knits' name3='Jackets' name4='Jewelry'
           />
-      </div>      
+      </div>    
+      <Slider/> 
     </div>
   )
 }
