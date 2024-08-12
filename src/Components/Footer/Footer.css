@@ -1,12 +1,16 @@
 .footer{
-  display: flex;
+  background-color: #232F3E;
+  position: relative;
+  top: -13rem;
+  margin: 0;
+  padding: 0;
+  max-height: 34.5rem;
 }
 .back-to-top{
     width: 100%;
     background-color: #37475A;
     height: 3rem;
     position: relative;
-    top: -13rem;
     align-content: center;
     text-align: center;
     cursor: pointer;
@@ -18,3 +22,232 @@
 .back-to-top:hover{
     background-color: #485769;
 }
+.main-footer{
+  position: relative;
+  background-color: #232F3E;
+  box-sizing: border-box;
+  display: table-row;
+}
+.get-to-know{
+  display: table-cell;
+  font-weight: 700;
+  font-size: 1rem;
+ 
+ 
+}
+.get-to-know >ul >li{
+  font-size: .875rem;
+  list-style: none;
+  margin-left: -2.5rem;
+  padding: .35rem 0;
+  color: #DDD;
+  font-weight: 500;
+}
+.get-to-know >ul >li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.connect-with{
+  display: table-cell;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.connect-with >ul >li{
+  font-size: .875rem;
+  font-weight: 500;
+  list-style: none;
+  margin-left: -2.5rem;
+  padding: .35rem 0;
+  color: #DDD;
+}
+.connect-with >ul >li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.make-money{
+  display: table-cell;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.make-money >ul >li{
+  font-size: .875rem;
+  font-weight: 500;
+  list-style: none;
+  margin-left: -2.5rem;
+  padding: .35rem 0;
+  color: #DDD;
+}
+.make-money >ul >li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.amazon-payment{
+  display: table-cell;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.amazon-payment >ul >li{
+  font-size: .875rem;
+  font-weight: 500;
+  list-style: none;
+  padding: .35rem 0;
+  margin-left: -2.5rem;
+  color: #DDD;
+}
+.amazon-payment >ul >li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.main-footer > div{
+  padding-left: 9rem;
+  padding-top: 3rem;
+}
+.footer-hr{
+  background: #3a4553;
+  position: relative;
+  margin-top: 2rem;
+  height: .04rem;
+  width: 100%;
+  border: none;
+  
+}
+.footer-links{
+  width: 100%;
+  background-color: #232F3E;
+  justify-content: center;
+  display: flex;
+  
+
+}
+.footer-links-logo{
+  background-image: url("https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB600086755_.png");
+  height: 1.7em;
+  width: 5rem;
+  background-position: -10px -90px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.footer-links-lang{
+  height: 5rem;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 1.5rem;
+}
+.links-lang{
+  padding: .6rem;
+  border: 1px solid #848688;
+  border-radius: .17rem;
+  display: inline-flex;
+  margin-left: 5rem;
+  cursor: pointer;
+}
+.links-lang >:nth-child(1) {
+  background: url("https://m.media-amazon.com/images/S/sash/Z8YwjOjqIHxqujG.png");
+  height: .9rem;
+  width: .9rem;
+  display: flex;
+  flex-direction: row;
+  background-position: -77px -24px;
+  
+ 
+}
+.links-lang >:nth-child(2){
+  font-size: .8rem;
+  padding: 0 .6rem;
+}
+.links-lang >:nth-child(3){
+  background: url("https://m.media-amazon.com/images/S/sash/Z8YwjOjqIHxqujG.png");
+  background-position: -77px -80px;
+  height: .8rem;
+  width: .8rem;
+  padding-left: .5rem;
+}
+.links-country{
+  display: inline-flex;
+  padding: .6rem;
+  padding-right: 1.5rem;
+  border: 1px solid #848688;
+  border-radius: .17rem;
+  margin-left: .6rem;
+  cursor: pointer;
+}
+.country-flag{
+  background: url("https://m.media-amazon.com/images/S/sash/Z8YwjOjqIHxqujG.png");
+  background-position: -18px -36px;
+  width: .7rem;
+  height: .8rem;
+  padding-left: .5rem;
+}
+.links-country > :nth-child(2){
+  font-size: .8rem;
+  padding-left: .5rem;
+}
+.footer-triangle{
+  width: 0;
+  height: 0;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 1.3rem solid white;
+  z-index: 3;
+  position: absolute;
+  left: 43.6rem;
+  top: 28.1rem;
+}
+.footer-langlist{
+  width: 13.8rem;
+  height: 20.5rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: .2rem;
+  color: #000;
+  position: fixed;
+  list-style: none;
+  z-index: 1000;
+  top: 8rem;
+  left: 42.7rem;
+}
+.footer-bottom{
+  background-color: #131A22;
+ 
+}
+.footer-tbl{
+ font-size: .75rem;
+ padding: 2rem 7rem;
+}
+.footer-tbl > tr > td:hover{
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+.footer-tbl > tr > th:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.footer-tbl > tr > th{
+  padding: 0 4.2rem;
+  padding-top: 1rem;
+  color: #DDD;
+  font-weight: 450;
+  text-align: left;
+}
+.footer-tbl >tr >td{
+  padding: 0 4.2rem;
+  color: #999;
+  text-align: left;
+}
+.footer-credits{
+  font-size: .75rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+.footer-credits > div{
+  text-align: center;
+  padding: .1rem .5rem;
+}
+.footer-credits > div > span{
+  padding: 0 .6rem;
+  cursor: pointer;
+}
+.footer-credits > div > span:hover{
+  text-decoration: underline;
+} 

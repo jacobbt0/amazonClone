@@ -3,6 +3,7 @@
     padding-top: 4rem;
     background-color: #232f3e;
     height: 2.7rem;
+    margin: 0;
     
 }
 .three-line{
@@ -76,4 +77,5 @@
    height: 300px;
    width: 300px;
    border: 1rem solid white;
+   z-index: 10;
 }
